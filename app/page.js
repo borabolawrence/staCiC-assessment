@@ -18,8 +18,7 @@ export default function Home() {
           <Link
             key={link.link}
             href={link.link}
-            className="block w-full sm:w-auto px-6 py-3 text-center text-lg font-semibold text-gray-500 hover:underline hover:text-blue-500 duration-200 bg-gray-100/20 rounded-md shadow-md hover:shadow-lg"
-          >
+            className="block w-full sm:w-auto px-6 py-3 text-center text-lg font-semibold text-gray-500 hover:underline hover:text-blue-500 duration-200 bg-gray-100/20 rounded-md shadow-md hover:shadow-lg">
             {link.title}
           </Link>
         ))}

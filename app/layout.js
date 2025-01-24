@@ -1,10 +1,10 @@
-import { Poppins } from 'next/font/google'
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({
-  weight: '400',
-  subsets: ['latin'],
-})
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Technical Worksheet",
@@ -14,9 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.variable} antialiased bg-[#f3f4f6]`}
-      >
+      <body className={`${poppins.variable} antialiased bg-[#f3f4f6]`}>
         {children}
       </body>
     </html>
